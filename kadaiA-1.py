@@ -26,14 +26,15 @@ for even_number in even_numbers:
     print(even_number * 2)
 
 # A-8
-# 辞書{キー：値}
-# for キー　in 辞書名名
-# print(キー名（キー）,辞書名[キー名]（値）)'
-users_info = {'Kazuma': 35, 'Tom': 57, 'Bob': 77}
+users_info = [["Kazuma", 35],
+              ["Tom", 57],
+              ["Bob", 77]]
 for user_info in users_info:
-    print(f'Name:{user_info},Age:{users_info[user_info]}')
+    print(f'Name:{user_info[0]},Age:{user_info[1]}')
 
 # A-9
+# 辞書
+
 kazuma_info = {'first_name': 'Kazuma', 'family_name': 'Takahashi', 'age': 35}
 print(kazuma_info["first_name"])
 print(kazuma_info["family_name"])
