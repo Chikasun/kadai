@@ -11,3 +11,4 @@ number_list = []
 for a in range(count):
     number_list.append(random.randint(1, face + 1))
 print(number_list)
+
